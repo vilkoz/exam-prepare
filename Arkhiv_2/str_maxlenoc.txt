@@ -1,0 +1,34 @@
+str_maxlenoc
+__________________________
+Executable name : str_maxlenoc
+Directory name : ex_4
+Suggested time : 30 minutes.
+Allowed functions : printf, write, malloc, free.
+Makefile : yes
+Write the str_maxlenoc program that takes n strings and displays,
+followed by a '\n', the longest string present in every parameter.
+If multiple strings match, display the one that appears first in the
+first parameter.
+"" is in every parameter.
+If there are no parameters, display '\n'.
+A is included in B with A and B strings if A is a substring of B or
+A and B are identical.
+Example 1:
+(jog@almarita)./str_maxlenoc ab bac abacabccabcb
+a
+(jog@almarita)
+Example 2:
+(jog@almarita)./str_maxlenoc bonjour salut bonjour bonjour
+u
+(jog@almarita)
+Example 3:
+(jog@almarita)./str_maxlenoc xoxAoxo xoxAox oxAox oxo A ooxAoxx oxooxo Axo
+(jog@almarita)
+Example 4:
+(jog@almarita)./str_maxlenoc bosdsdfnjodur atehhellosd afkuonjosurafg headfgllosf fghellosag afdfbosnjourafg
+os
+(jog@almarita)
+Example 5:
+(jog@almarita)./str_maxlenoc | cat -e
+$
+(jog@almarita)
